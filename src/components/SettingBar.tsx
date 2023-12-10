@@ -1,5 +1,5 @@
 "use client";
 
 export default function SettingBar() {
-  return <div className="toolbar"></div>;
+  return <div className="setting-bar"></div>;
 }
