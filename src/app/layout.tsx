@@ -15,9 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Toolbar />
-        <SettingBar></SettingBar>
-        <Canvas />
+        <div className="app">
+          <Toolbar />
+          <SettingBar></SettingBar>
+          <Canvas />
+        </div>
       </body>
     </html>
   );
